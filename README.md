@@ -1,5 +1,7 @@
 # About this Code
 
+The code in this repo is a derivative work of the DCT Visualizer built by [0612 @ Nerdfirst](https://bitbucket.org/nerdfirst/dct-explorer/src/master/). Credit to his excellent work!
+
 The code in this repository is part of a tutorial by **0612 TV** entitled **JPEG Encoding Magic**, hosted on YouTube.
 
 [![Click to Watch](https://img.youtube.com/vi/MFvVqcl6JVs/0.jpg)](https://www.youtube.com/watch?v=MFvVqcl6JVs "Click to Watch")
