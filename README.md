@@ -2,7 +2,9 @@
 
 The code in this repo is a derivative work of the DCT Visualizer built by [0612 @ Nerdfirst](https://bitbucket.org/nerdfirst/dct-explorer/src/master/) for use with his [video tutorial](https://www.youtube.com/watch?v=MFvVqcl6JVs). Credit to his excellent work!
 
-This version has been modified to allow the user to click an 8x8 pixel block and show the DCT output, as well as the selected zoomed block. The user can then modify or nullify the DCT elements to see the impact on the zoomed image. 
+This version has been modified to allow the user to click an 8x8 pixel block and show the DCT output, as well as the selected zoomed block. The user can then modify or nullify the DCT elements to see the impact on the zoomed image.
+
+A live demo of the project is [available here](http://leedavison.me/Files/DCT/DCTvis.html)
 
 
 # License
