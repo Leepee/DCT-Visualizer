@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta name="description" content="Visualize JPEGs Discrete Cosine Transform with this simple web app.">
+		
+		<title>DCT Visualizer</title>
+	
+		<script src="DCTjs/dct.js"></script>
+		<script src="logic.js"></script>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body onload="begin()">
+		<h1>DCT Visualizer</h1>
+		<div style="display:inline-block">
+			<div class="caption">Pixel Picker</div>
+			<div id="imgPicker" class="mainPanel2"></div>
+		</div>
+		<div style="display:inline-block">
+			<div class="caption">DCT Matrix View</div>
+			<div id="dctPanel" class="mainPanel"></div>
+		</div>
+		<div style="display:inline-block">
+			<div class="caption">Image View</div>
+			<div id="imgPanel" class="mainPanel"></div>
+		</div>
+
+		<div class="footnotes">
+
+			<p>
+				<strong>How to Use</strong><br>
+				The two panels (DCT Matrix and Image views) above represent 8x8 matrices. The one on the left is a DCT matrix with values running from -1024 to 1023, while the one on the right represents the image, with values running from 0 to 255. You can change the value of any square by hovering your cursor over the square and doing any of the following:
+				
+				<ul>
+					<li>Scroll your mouse wheel</li>
+					<li>Left click to max out value</li>
+					<li>Right click to bring value to minimum</li>
+					<li>Middle click to "center" value</li>
+				</ul>
+
+			You can also click the full image on the left Pixel Picker panel, which will update the Image View with the pixels selected.
+
+			This project is a fork of the DCT Visualizer built by <a href="https://resources.nerdfirst.net/dct">0612 @ Nerdfirst</a>. Credit to his excellent work!
+			</p>
+			<p class="finePrint">
+				Note that this project contains code from the GNU Classpath project, which is licensed under the GNU General Public License. However, per the licensing exception generously granted by the GNU Classpath team, only the component using GPL code (contained with the license within the "DCTjs" folder in the source distribution), shall be covered under the license. For the licensing terms of the rest of the program, please refer to the "LICENSE" file in the source code.
+			</p>
+		</div>
+	</body>
+</html>
