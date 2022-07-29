@@ -1,12 +1,8 @@
-# About this Code
+# DCT Visualizer
 
-The code in this repo is a derivative work of the DCT Visualizer built by [0612 @ Nerdfirst](https://bitbucket.org/nerdfirst/dct-explorer/src/master/). Credit to his excellent work!
+The code in this repo is a derivative work of the DCT Visualizer built by [0612 @ Nerdfirst](https://bitbucket.org/nerdfirst/dct-explorer/src/master/) for use with his [video tutorial](https://www.youtube.com/watch?v=MFvVqcl6JVs). Credit to his excellent work!
 
-The code in this repository is part of a tutorial by **0612 TV** entitled **JPEG Encoding Magic**, hosted on YouTube.
-
-[![Click to Watch](https://img.youtube.com/vi/MFvVqcl6JVs/0.jpg)](https://www.youtube.com/watch?v=MFvVqcl6JVs "Click to Watch")
-
-If you wish to try this code, you can run it on the NERDfirst website: https://resources.nerdfirst.net/dct
+This version has been modified to allow the user to click an 8x8 pixel block and show the DCT output, as well as the selected zoomed block. The user can then modify or nullify the DCT elements to see the impact on the zoomed image. 
 
 
 # License
